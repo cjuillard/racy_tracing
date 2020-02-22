@@ -29,5 +29,23 @@
     <ClInclude Include="InOneWeekend\vec3.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\RayTracing\raytracing.github.io\src\InOneWeekend\hittable.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\RayTracing\raytracing.github.io\src\InOneWeekend\sphere.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\RayTracing\raytracing.github.io\src\InOneWeekend\hittable_list.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InOneWeekend\camera.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InOneWeekend\material.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InOneWeekend\random.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

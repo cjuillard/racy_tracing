@@ -141,6 +141,12 @@
     <ClCompile Include="TestOutput.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\RayTracing\raytracing.github.io\src\InOneWeekend\hittable.h" />
+    <ClInclude Include="..\..\..\RayTracing\raytracing.github.io\src\InOneWeekend\hittable_list.h" />
+    <ClInclude Include="..\..\..\RayTracing\raytracing.github.io\src\InOneWeekend\sphere.h" />
+    <ClInclude Include="InOneWeekend\camera.h" />
+    <ClInclude Include="InOneWeekend\material.h" />
+    <ClInclude Include="InOneWeekend\random.h" />
     <ClInclude Include="InOneWeekend\vec3.h" />
     <ClInclude Include="stb_image.h" />
     <ClInclude Include="stb_image_write.h" />
