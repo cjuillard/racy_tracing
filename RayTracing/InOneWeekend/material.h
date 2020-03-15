@@ -96,15 +96,16 @@ class dielectric : public material {
              vec3 reflected = reflect(r_in.direction(), rec.normal);
              float ni_over_nt;
              attenuation = vec3(1.0, 1.0, 1.0);
+
              vec3 refracted;
              float reflect_prob;
              float cosine;
              if (dot(r_in.direction(), rec.normal) > 0) {
                   outward_normal = -rec.normal;
                   ni_over_nt = ref_idx;
-               // cosine = ref_idx * dot(r_in.direction(), rec.normal) / r_in.direction().length();
-                  cosine = dot(r_in.direction(), rec.normal) / r_in.direction().length();
-                  cosine = sqrt(1 - ref_idx*ref_idx*(1-cosine*cosine));
+                cosine = ref_idx * dot(r_in.direction(), rec.normal) / r_in.direction().length();
+                  //cosine = dot(r_in.direction(), rec.normal) / r_in.direction().length();
+                  //cosine = sqrt(1 - ref_idx*ref_idx*(1-cosine*cosine));
              }
              else {
                   outward_normal = rec.normal;

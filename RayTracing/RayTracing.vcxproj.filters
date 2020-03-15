@@ -47,5 +47,8 @@
     <ClInclude Include="InOneWeekend\random.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="InOneWeekend\ray.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
